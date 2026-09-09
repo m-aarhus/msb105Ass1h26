@@ -22,7 +22,7 @@ abstract: "Et kort sammendrag, en til to avsnitt."
 
 ## Introduksjon
 
-Hva handler artikkelen om? Hva blir diskutert? Hvorfor er dette viktig?
+Vitenskapelig forskning skal gi kunnskap som andre kan ha tillit til og benytte videre. For at forskningsresultatene skal være troverdige, er det relevant at analysene kan etterprøves og at resultatene ikke skyldes tilfeldigheter eller feil gjort av forskeren.
 
 ## Litteraturgjennomgang
 
