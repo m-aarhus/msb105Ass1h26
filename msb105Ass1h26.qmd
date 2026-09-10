@@ -26,7 +26,7 @@ Vitenskapelig forskning skal gi kunnskap som andre kan ha tillit til og benytte 
 
 ## Litteraturgjennomgang
 
-@bollen2016 trekker frem
+For å kunne vurdere hvor pålitelig en forskning er, vil begrepene reproduserbarhet og replikerbarhet være sentrale. Reproduserbarhet handler om i hvilken grad andre forskere kan bruke de samme dataene og prosedyrene, og samtidig komme frem til de samme resultatene [@bollen2016].
 
 Smarte synspunkt om emnet fra andre.
 
