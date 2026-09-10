@@ -16,15 +16,17 @@ format:
 # krever at tinytex er installert
 #  pdf:
 #    papersize: a4
-bibliography: reproducibility.bib
+bibliography: [reproducibility.bib, myRefs.bib]
 abstract: "Et kort sammendrag, en til to avsnitt."
 ---
 
 ## Introduksjon
 
-Vitenskapelig forskning skal gi kunnskap som andre kan ha tillit til og benytte videre. For at forskningsresultatene skal være troverdige, er det relevant at analysene kan etterprøves og at resultatene ikke skyldes tilfeldigheter eller feil gjort av forskeren. I denne artikkelen diskuteres betydningen av reproduserbarhet og replikherbarhet, og hvordan digitale verktøy kan bidra til mer åpen og etterprøvbar forskning. Tema er viktig fordi manglende reproduserbarhet kan svekke tilliten til forskningsresultater og gjøre det vankligere for andre å videreføre tidligere forskning. På bakgrunn av dette undersøker artikkelen følgende problemstillingen: "Hvordan kan Quarto-dokumenter bidra til bedre reproduserbarhet i forskning, og om replikerbarhet bør være et krav".
+Vitenskapelig forskning skal gi kunnskap som andre kan ha tillit til og benytte videre. For at forskningsresultatene skal være troverdige, er det relevant at analysene kan etterprøves og at resultatene ikke skyldes tilfeldigheter eller feil gjort av forskeren. I denne artikkelen diskuteres betydningen av reproduserbarhet og replikherbarhet, og hvordan digitale verktøy kan bidra til mer åpen og etterprøvbar forskning. Tema er viktig fordi manglende reproduserbarhet kan svekke tilliten til forskningsresultater og gjøre det vankligere for andre å videreføre tidligere forskning. På bakgrunn av dette undersøker artikkelen følgende problemstillingen: "*Hvordan kan Quarto-dokumenter bidra til bedre reproduserbarhet i forskning, og om replikerbarhet bør være et krav*".
 
 ## Litteraturgjennomgang
+
+@bollen2016 trekker frem
 
 Smarte synspunkt om emnet fra andre.
 
