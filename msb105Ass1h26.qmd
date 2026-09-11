@@ -48,7 +48,7 @@ Selv om vi har kommet langt når det kommer til reproduserbarhet, finnes det for
 
 ## Konklusjon
 
-Noen kloke ord.
+For å oppsummere er reproduserbarhet og replikerbarhet viktige for å sikre at forskning er pålitelig og kan gjensakpes. Quarto-dokument kan bidra til bedre reproduserbarhet ved å samle tekst, kode og resultater i samme dokument, som vil gjøre analysen lettere å følge og gjenskape. Samtidig løser ikke Quarto alle utfordringer, ettersom at god dokumentasjon, ryddig organisering og kontroll på data fortsatt er nødvendig. Replikerbarhet bør derfor være et mål i forskning, men det er ikke alltid realistisk å kreve at alle studier skal kunne gjentas. Det kan derfor konkluderes med at reproduserbarhet vil derfor være et mer realistisk krav innen forskning.
 
 ## Referanser
 
