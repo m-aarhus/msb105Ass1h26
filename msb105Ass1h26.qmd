@@ -17,7 +17,9 @@ format:
 #  pdf:
 #    papersize: a4
 bibliography: [reproducibility.bib, myRefs.bib]
-abstract: "Et kort sammendrag, en til to avsnitt."
+abstract: "Denne oppgaven handler om reproduserbarhet og replikerbarhet i forskning, og hvordan Quarto kan bidra til å gjøre forskningsarbeid lettere å gjenskape. Tidligere forskning viser at det kan være vanskelig å gjenskape publiserte resultater, blant annet på grunn av manglende data, dårlig dokumentasjon og ulike analysevalg.
+
+Quarto kan gjøre forskning mer reproduserbar ved å samle tekst, kode, tabeller og resultater i samme dokument. Samtidig er ikke Quarto nok alene for å oppnå troverdige resultater. Reproduserbarhet kan derfor vurderes som et viktig krav i forskning, mens replikerbarhet bør være et mål når det er mulig"
 ---
 
 ## Introduksjon
