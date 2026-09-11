@@ -38,11 +38,13 @@ Quarto bygger videre på mange av de samme prinsippene. Et Quarto-dokument kan s
 
 ## Diskusjon
 
-Et sentralt spørmål knyttet til dette temaet er om replikerbarhet bør være et krav i forskning. Som tidligere nevnt kan replikerbarhet gjøre forskningsresultater mer troverdige.
+Et sentralt spørmål knyttet til dette temaet er om replikerbarhet bør være et krav i forskning. Som tidligere nevnt kan replikerbarhet gjøre forskningsresultater mer troverdige. Dersom andre forskere gjennomfører en lignende studie med nye data og får lignende resultater, vil det gi større grunn til å stole på funnene [@bollen2016]. Dette er spesielt viktig når forskningen har vist at resultater ikke alltid lar seg gjenta. Replikasjonsprosjektet innen psykologi viste for eksempel en stor forskjell mellom de opprinnelige studiene og replikasjonene [@opensciencecollaboration2015].
 
-- Burde replikerbarhet være et krav eller er det å be om for mye?
-- Kan Quarto dokumenter hjelpe med å oppnå reproduserbarhet?
-- Hvilke problem gjenstår og hvordan kan disse løses?
+På den andre siden vil det være vanskelig å kreve at alle studier skal kunne replikeres. Noen studier kan bygge på spesielle hendelser, bestemte grupper eller data som det ikke vil være mulig å samle inn på nytt. Det kan derfor være mer realistisk at reproduserbarhet er et grunnleggende krav, mens replikerbarhet bør være et mål dersom det er mulig. Denne vurderingen er sentral fordi en studie kan som tidligere nevnt være reproduserbar, uten at det betyr at resultatene nødvendigvis vil bli de samme i en ny studie [@goodman2016b].
+
+Videre er det relevant å vurdere hvor godt Quarto-dokumenter kan hjelpe med å oppnå reproduserbarhet. Det gjør det lettere for andre å følge analysen og se hvordan forskeren har kommet frem til resultatene. Når tabeller og figurer blir laget direkte fra koden, blir det som tidligere nevnt også mindre behov for å kopiere resultatene manuelt [@quarto]. Quarto-dokumenter kan derfor være et nyttig hjelpemiddel, men ikke i seg selv sikre at en analyse er reproduserbar.
+
+Selv om vi har kommet langt når det kommer til reproduserbarhet, finnes det fortsatt flere problemer. Selv om man kan samle både data og kode i samme dokument, kan det være vanskelig å gjenskape resultatene hvis filene er dårlig forklart [@mccullough2008a]. @vankampen2024 viser samtidig at god organisering og dokumentasjon kan gjøre forskning lettere å gjenskape. Studien viser også at en viktig utfordring er at forskere ikke alltid har nok tid eller motivasjon til å følge slike rutiner.
 
 ## Konklusjon
 
