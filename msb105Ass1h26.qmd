@@ -26,17 +26,7 @@ Vitenskapelig forskning skal gi kunnskap som andre kan ha tillit til og benytte 
 
 ## Litteraturgjennomgang
 
-For å kunne vurdere hvor pålitelig en forskning er, vil begrepene reproduserbarhet og replikerbarhet være sentrale. Reproduserbarhet handler om i hvilken grad andre forskere kan bruke de samme dataene og prosedyrene, og samtidig komme frem til de samme resultatene [@bollen2016].
-
-Smarte synspunkt om emnet fra andre.
-
-Bruk minst 20 siteringer. Minst 5 må være nye relevante artikler om emnet som du har funnet selv.
-
-Benytt begge siteringsmåter, dvs. «in-line» og på slutten av setningen. Prøv å variere siteringsteknikk for å få flyt i språket.
-
-Example:
-
-@gentleman2003 hevder at bla bla bla. Andre mener imidlertid bla bla [@goodman2016b; @ioannidis2005b].
+For å kunne vurdere hvor pålitelig en forskning er, vil begrepene reproduserbarhet og replikerbarhet være sentrale. Reproduserbarhet handler om i hvilken grad andre forskere kan bruke de samme dataene og prosedyrene, og samtidig komme frem til de samme resultatene [@bollen2016]. Replikerbarhet derimot dreier seg om at lignende resultater kan oppnås ved å gjennomføre analysen på nytt med nye data. @goodman2016b fremhever også skille mellom å gjenskape et resultat med de samme datane og metodene, og å undersøke om et lignende resultat oppstår i en ny studie med nye data. Dette skille er relevant fordi en analyse kan være reproduserbar uten at resultatene lar seg replikere i andre data.
 
 ## Diskusjon av forskningsspørsmålet (problemstillingen)
 
