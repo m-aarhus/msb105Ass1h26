@@ -38,6 +38,8 @@ Quarto bygger videre på mange av de samme prinsippene. Et Quarto-dokument kan s
 
 ## Diskusjon
 
+Et sentralt spørmål knyttet til dette temaet er om replikerbarhet bør være et krav i forskning. Som tidligere nevnt kan replikerbarhet gjøre forskningsresultater mer troverdige.
+
 - Burde replikerbarhet være et krav eller er det å be om for mye?
 - Kan Quarto dokumenter hjelpe med å oppnå reproduserbarhet?
 - Hvilke problem gjenstår og hvordan kan disse løses?
