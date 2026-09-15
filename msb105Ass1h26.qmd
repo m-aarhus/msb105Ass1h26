@@ -19,7 +19,7 @@ format:
 bibliography: [reproducibility.bib, myRefs.bib]
 abstract: "Denne oppgaven handler om reproduserbarhet og replikerbarhet i forskning, og hvordan Quarto kan bidra til å gjøre forskningsarbeid lettere å gjenskape. Tidligere forskning viser at det kan være vanskelig å gjenskape publiserte resultater, blant annet på grunn av manglende data, dårlig dokumentasjon og ulike analysevalg.
 
-Quarto kan gjøre forskning mer reproduserbar ved å samle tekst, kode, tabeller og resultater i samme dokument. Samtidig er ikke Quarto nok alene for å oppnå troverdige resultater. Reproduserbarhet kan derfor vurderes som et viktig krav i forskning, mens replikerbarhet bør være et mål når det er mulig"
+Quarto kan gjøre forskning mer reproduserbar ved å samle tekst, kode, tabeller og resultater i samme dokument. Samtidig er ikke Quarto nok alene for å oppnå troverdige resultater. Reproduserbarhet kan derfor vurderes som et viktig krav i forskning, mens replikerbarhet bør være et mål når det er mulig."
 ---
 
 ## Introduksjon
@@ -59,10 +59,16 @@ For å oppsummere er reproduserbarhet og replikerbarhet viktige for å sikre at 
 
 ## Appendiks A
 
-- Versjon nummer og referanse til R pakken brukt i dokumentet
-- R versjon brukt, med referanse
+Analysene og dokumentene ble utarbeidet med R version 4.6.1 (2026-06-24).
+
+Referanse til R pakken:
+
+@Manual{, title = {R: A Language and Environment for Statistical Computing}, author = {{R Core Team}}, organization = {R Foundation for Statistical Computing}, address = {Vienna, Austria}, year = {2026}, doi = {10.32614/R.manuals}, url = {[https://www.R-project.org/},](https://www.R-project.org/},) }
 
 ## Appendiks B
 
-- Hvordan er KI brukt
-- Husk invitasjon til chat
+ChatGPT ble brukt som støtte ved tekniske problemer i R og RStudio. Det ble blant annet brukt til å forklare feilmeldinger, finne feil i kode og få hjelp til bruk av Quarto og Github.
+
+Link til Chatgpt:
+
+<https://chatgpt.com/g/g-p-6aa1423d7bd48191a375dd09db36b440-arbeidskrav-1-msb105/project>
