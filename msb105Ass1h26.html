@@ -1,18 +1,15 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="no-NN" xml:lang="no-NN"><head>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="nb" xml:lang="nb"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.8.25">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Author Name">
+<meta name="author" content="maa">
 
 <title>Er reproduserbarhet nok?</title>
 <style>
-/* Default styles provided by pandoc.
-** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
-*/
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
 div.columns{display: flex; gap: min(4vw, 1.5em);}
@@ -50,14 +47,15 @@ div.csl-indent {
 <script src="msb105Ass1h26_files/libs/clipboard/clipboard.min.js"></script>
 <script src="msb105Ass1h26_files/libs/quarto-html/quarto.js" type="module"></script>
 <script src="msb105Ass1h26_files/libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="msb105Ass1h26_files/libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="msb105Ass1h26_files/libs/quarto-html/popper.min.js"></script>
 <script src="msb105Ass1h26_files/libs/quarto-html/tippy.umd.min.js"></script>
 <script src="msb105Ass1h26_files/libs/quarto-html/anchor.min.js"></script>
 <link href="msb105Ass1h26_files/libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="msb105Ass1h26_files/libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="msb105Ass1h26_files/libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="msb105Ass1h26_files/libs/bootstrap/bootstrap.min.js"></script>
 <link href="msb105Ass1h26_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="msb105Ass1h26_files/libs/bootstrap/bootstrap-138a6193a3bd40baf1e627da441a4734.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="msb105Ass1h26_files/libs/bootstrap/bootstrap-d6a003b94517c951b2d65075d42fb01b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 
 
 </head>
@@ -66,7 +64,7 @@ div.csl-indent {
 
 <div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
 <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-<div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="msb105Ass1h26.pdf"><i class="bi bi-file-pdf"></i>Typst</a></li></ul></div></div>
+<div class="quarto-alternate-formats"><h2>Andre formater</h2><ul><li><a href="msb105Ass1h26.pdf"><i class="bi bi-file-pdf"></i>Typst</a></li></ul></div></div>
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
@@ -79,16 +77,16 @@ div.csl-indent {
 <div class="quarto-title-meta">
 
     <div>
-    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-heading">Forfatter</div>
     <div class="quarto-title-meta-contents">
-             <p>Author Name </p>
+             <p>maa </p>
           </div>
   </div>
     
     <div>
-    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-heading">Utgitt</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">Wednesday 9 Sep, 2026</p>
+      <p class="date">onsdag 23 sep., 2026</p>
     </div>
   </div>
   
@@ -97,8 +95,9 @@ div.csl-indent {
   
 <div>
   <div class="abstract">
-    <div class="block-title">Abstract</div>
-    Et kort sammendrag, en til to avsnitt.
+    <div class="block-title">Sammendrag</div>
+    <p>Denne oppgaven handler om reproduserbarhet og replikerbarhet i forskning, og hvordan Quarto kan bidra til å gjøre forskningsarbeid lettere å gjenskape. Tidligere forskning viser at det kan være vanskelig å gjenskape publiserte resultater, blant annet på grunn av manglende data, dårlig dokumentasjon og ulike analysevalg.</p>
+    <p>Quarto, <span class="citation" data-cites="Allaire_Quarto_2026">Allaire et al. (<a href="#ref-Allaire_Quarto_2026" role="doc-biblioref">2026</a>)</span>, kan gjøre forskning mer reproduserbar ved å samle tekst, kode, tabeller og resultater i samme dokument. Samtidig er ikke Quarto nok alene for å oppnå troverdige resultater. Reproduserbarhet kan derfor vurderes som et viktig krav i forskning, mens replikerbarhet bør være et mål når det er mulig.</p>
   </div>
 </div>
 
@@ -108,55 +107,92 @@ div.csl-indent {
 
 <section id="introduksjon" class="level2">
 <h2 class="anchored" data-anchor-id="introduksjon">Introduksjon</h2>
-<p>Hva handler artikkelen om? Hva blir diskutert? Hvorfor er dette viktig?</p>
+<p>Vitenskapelig forskning skal gi kunnskap som andre kan ha tillit til og benytte videre. For at forskningsresultatene skal være troverdige, er det relevant at analysene kan etterprøves og at resultatene ikke skyldes tilfeldigheter eller feil gjort av forskeren. I denne artikkelen diskuteres betydningen av reproduserbarhet og replikherbarhet, og hvordan digitale verktøy kan bidra til mer åpen og etterprøvbar forskning. Tema er viktig fordi manglende reproduserbarhet kan svekke tilliten til forskningsresultater og gjøre det vankligere for andre å videreføre tidligere forskning. På bakgrunn av dette undersøker artikkelen følgende problemstillingen: “<em>Hvordan kan Quarto-dokumenter bidra til bedre reproduserbarhet i forskning, og om replikerbarhet bør være et krav</em>”.</p>
 </section>
 <section id="litteraturgjennomgang" class="level2">
 <h2 class="anchored" data-anchor-id="litteraturgjennomgang">Litteraturgjennomgang</h2>
-<p>Smarte synspunkt om emnet fra andre.</p>
-<p>Bruk minst 20 siteringer. Minst 5 må være nye relevante artikler om emnet som du har funnet selv.</p>
-<p>Benytt begge siteringsmåter, dvs. «in-line» og på slutten av setningen. Prøv å variere siteringsteknikk for å få flyt i språket.</p>
-<p>Example:</p>
-<p><span class="citation" data-cites="gentleman2003">Gentleman &amp; Temple Lang (<a href="#ref-gentleman2003" role="doc-biblioref">2003</a>)</span> hevder at bla bla bla. Andre mener imidlertid bla bla <span class="citation" data-cites="goodman2016b ioannidis2005b">(<a href="#ref-goodman2016b" role="doc-biblioref">Goodman et al., 2016</a>; <a href="#ref-ioannidis2005b" role="doc-biblioref">Ioannidis, 2005</a>)</span>.</p>
+<p>For å kunne vurdere hvor pålitelig forskning er, vil begrepene <em>reproduserbarhet</em> og <em>replikerbarhet</em> være sentrale. <em>Reproduserbarhet</em> handler om i hvilken grad andre forskere kan bruke de samme dataene og prosedyrene, og samtidig komme frem til de samme resultatene <span class="citation" data-cites="bollen2016">(<a href="#ref-bollen2016" role="doc-biblioref">Kenneth Bollen et al., 2016</a>)</span>. <em>Replikerbarhet</em> derimot dreier seg om at lignende resultater kan oppnås ved å gjennomføre analysen på nytt med nye data. <span class="citation" data-cites="goodman2016b">Goodman et al. (<a href="#ref-goodman2016b" role="doc-biblioref">2016</a>)</span> fremhever også skille mellom å gjenskape et resultat med de samme datane og metodene, og å undersøke om et lignende resultat oppstår i en ny studie med nye data. Dette skille er relevant fordi en analyse kan være reproduserbart uten at resultatene lar seg replikere i andre data.</p>
+<p>Behovet for reproduserbar og replikerbar forskning har fått større oppmerksomhet i nyere tid, ettersom det har vist seg at ikke alle publiserte forskningsfunn er like pålitelige. <span class="citation" data-cites="ioannidis2005b">Ioannidis (<a href="#ref-ioannidis2005b" role="doc-biblioref">2005</a>)</span> argumenterer for at sannsynligheten for at et funn er sant kan påvirkes av blant annet få observasjoner, svake effekter, graden av skjevhet og hvor mange mulige sammenhenger som er undersøkt. Dette ble også synliggjort i et stort replikasjonsprosjekt innen psykologi, hvor 100 tidligere studier ble gjentatt. I de opprinnelige studiene hadde 97% statistisk signifikante resultater, mens bare 36% av replikasjonene fikk det samme <span class="citation" data-cites="opensciencecollaboration2015">(<a href="#ref-opensciencecollaboration2015" role="doc-biblioref">Collaboration, 2015</a>)</span>. Andre studier viser også at stor frihet i valg av data og analysemetoder kan øke risikoen for å finne resultater som egentilig skyldes tilfeldigheter <span class="citation" data-cites="simmons2011">(<a href="#ref-simmons2011" role="doc-biblioref">Simmons et al., 2011</a>)</span>.</p>
+<p>Utfordringen er også relevant innen økonomisk forskning, hvor analysene i stor grad bygger på data. <span class="citation" data-cites="mccullough2008a">McCullough et al. (<a href="#ref-mccullough2008a" role="doc-biblioref">2008</a>)</span> viser at det kan være vanskelig å gjenskape tidligere studier, selv om data og kode er gjort tilgjengelig. Det er derfor ikke nok å bare dele filene dersom de er dårlig dokumentert eller vanskelige å bruke. Nyere forskning støtter også dette. <span class="citation" data-cites="vilhuber2020">Vilhuber (<a href="#ref-vilhuber2020" role="doc-biblioref">2020</a>)</span> beskriver hvordan reproduserbarhet har utviklet seg til et viktig spørsmål innen økonomifaget, mens <span class="citation" data-cites="orozco2020">(<a href="#ref-orozco2020" role="doc-biblioref">Orozco et al., 2020</a>)</span> understreker betydningen av å organisere forskningsarbeidet, skrive forståelig kode og automatisere analyseprosessen. Dette kan gjøre det lettere for andre forskere å forstå hvordan analysen er gjennomført.</p>
+<p>En måte å gjøre forskning mer reproduserbar på er å samle tekst, kode og resultater i samme dokument. Dette bygger på konseptet <em>literate programming</em> <span class="citation" data-cites="knuth1984b">(<a href="#ref-knuth1984b" role="doc-biblioref">Knuth, 1984</a>)</span> og senere verktøy som Sweave og R Markdown <span class="citation" data-cites="leisch2002 xie2018">(<a href="#ref-leisch2002" role="doc-biblioref">Leisch, 2002</a>; <a href="#ref-xie2018" role="doc-biblioref">Xie et al., 2018</a>)</span>. Da kan analyser, tabeller og figuerer lages direkte fra koden, i stedet for å kopieres manuelt inn i dokumentet. <span class="citation" data-cites="gentleman2007b">Gentleman &amp; Temple Lang (<a href="#ref-gentleman2007b" role="doc-biblioref">2007</a>)</span> tydeliggjør at dette kan gjøre det lettere å forstå hvordan analysene er gjort. Nyere forskning viser også at dokumenter som kombinerer tekst, kode og resultater kan gjøre forskningen mer åpen og lettere å gjenskape <span class="citation" data-cites="figueiredo2022">(<a href="#ref-figueiredo2022" role="doc-biblioref">Figueiredo et al., 2022</a>)</span>.</p>
+<p>Quarto bygger videre på mange av de samme prinsippene. Et Quarto-dokument kan samle tekst, R-kode, tabeller, figurer og referanser på ett sted <span class="citation" data-cites="Allaire_Quarto_2026 quarto">(<a href="#ref-Allaire_Quarto_2026" role="doc-biblioref">Allaire et al., 2026</a>; <a href="#ref-quarto" role="doc-biblioref">Klajdi Puka, u.å.</a>)</span>. Dette kan redusere manuelle feil og gjøre analyseprosessen lettere å følge opp. Samtidig løser ikke Quarto alle utfordringer knyttet til reproduserbarhet og replikerbarhet. Det vil derfor videre bli diskutert hvor strenge kravene til replikherbarhet bør være og hvor mye Quarto faktisk kan bidra med.</p>
 </section>
-<section id="diskusjon-av-forskningsspørsmålet-problemstillingen" class="level2">
-<h2 class="anchored" data-anchor-id="diskusjon-av-forskningsspørsmålet-problemstillingen">Diskusjon av forskningsspørsmålet (problemstillingen)</h2>
-<ul>
-<li>Burde replikerbarhet være et krav eller er det å be om for mye?</li>
-<li>Kan Quarto dokumenter hjelpe med å oppnå reproduserbarhet?</li>
-<li>Hvilke problem gjenstår og hvordan kan disse løses?</li>
-</ul>
+<section id="diskusjon" class="level2">
+<h2 class="anchored" data-anchor-id="diskusjon">Diskusjon</h2>
+<p>Et sentralt spørmål knyttet til dette temaet er om replikerbarhet bør være et krav i forskning. Som tidligere nevnt kan replikerbarhet gjøre forskningsresultater mer troverdige. Dersom andre forskere gjennomfører en lignende studie med nye data og får lignende resultater, vil det gi større grunn til å stole på funnene <span class="citation" data-cites="bollen2016">(<a href="#ref-bollen2016" role="doc-biblioref">Kenneth Bollen et al., 2016</a>)</span>. Dette er spesielt viktig når forskningen har vist at resultater ikke alltid lar seg gjenta. Replikasjonsprosjektet innen psykologi viste for eksempel en stor forskjell mellom de opprinnelige studiene og replikasjonene <span class="citation" data-cites="opensciencecollaboration2015">(<a href="#ref-opensciencecollaboration2015" role="doc-biblioref">Collaboration, 2015</a>)</span>.</p>
+<p>På den andre siden vil det være vanskelig å kreve at alle studier skal kunne replikeres. Noen studier kan bygge på spesielle hendelser, bestemte grupper eller data som det ikke vil være mulig å samle inn på nytt. Det kan derfor være mer realistisk at reproduserbarhet er et grunnleggende krav, mens replikerbarhet bør være et mål dersom det er mulig. Denne vurderingen er sentral fordi en studie kan som tidligere nevnt være reproduserbar, uten at det betyr at resultatene nødvendigvis vil bli de samme i en ny studie <span class="citation" data-cites="goodman2016b">(<a href="#ref-goodman2016b" role="doc-biblioref">Goodman et al., 2016</a>)</span>.</p>
+<p>Videre er det relevant å vurdere hvor godt Quarto-dokumenter kan hjelpe med å oppnå reproduserbarhet. Det gjør det lettere for andre å følge analysen og se hvordan forskeren har kommet frem til resultatene. Når tabeller og figurer blir laget direkte fra koden, blir det som tidligere nevnt også mindre behov for å kopiere resultatene manuelt <span class="citation" data-cites="quarto">(<a href="#ref-quarto" role="doc-biblioref">Klajdi Puka, u.å.</a>)</span>. Quarto-dokumenter kan derfor være et nyttig hjelpemiddel, men ikke i seg selv sikre at en analyse er reproduserbar.</p>
+<p>Selv om vi har kommet langt når det kommer til reproduserbarhet, finnes det fortsatt flere problemer. Selv om man kan samle både data og kode i samme dokument, kan det være vanskelig å gjenskape resultatene hvis filene er dårlig forklart <span class="citation" data-cites="mccullough2008a">(<a href="#ref-mccullough2008a" role="doc-biblioref">McCullough et al., 2008</a>)</span>. <span class="citation" data-cites="vankampen2024">van Kampen et al. (<a href="#ref-vankampen2024" role="doc-biblioref">2024</a>)</span> viser samtidig at god organisering og dokumentasjon kan gjøre forskning lettere å gjenskape. Studien viser også at en viktig utfordring er at forskere ikke alltid har nok tid eller motivasjon til å følge slike rutiner.</p>
 </section>
 <section id="konklusjon" class="level2">
 <h2 class="anchored" data-anchor-id="konklusjon">Konklusjon</h2>
-<p>Noen kloke ord.</p>
+<p>For å oppsummere er reproduserbarhet og replikerbarhet viktige for å sikre at forskning er pålitelig og kan gjensakpes. Quarto-dokument kan bidra til bedre reproduserbarhet ved å samle tekst, kode og resultater i samme dokument, som vil gjøre analysen lettere å følge og gjenskape. Samtidig løser ikke Quarto alle utfordringer, ettersom at god dokumentasjon, ryddig organisering og kontroll på data fortsatt er nødvendig. Replikerbarhet bør derfor være et mål i forskning, men det er ikke alltid realistisk å kreve at alle studier skal kunne gjentas. Det kan derfor konkluderes med at reproduserbarhet vil derfor være et mer realistisk krav innen forskning.</p>
 </section>
 <section id="referanser" class="level2">
 <h2 class="anchored" data-anchor-id="referanser">Referanser</h2>
 <div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2" role="list">
-<div id="ref-gentleman2003" class="csl-entry" role="listitem">
-Gentleman, R., &amp; Temple Lang, D. (2003). Statistical <span>Analyses</span> and <span>Reproducible Research</span>. <em>Journal of Computational and Graphical Statistics</em>, <em>16</em>(1), 1–23.
+<div id="ref-Allaire_Quarto_2026" class="csl-entry" role="listitem">
+Allaire, J. J., Teague, C., Scheidegger, C., Xie, Y., Dervieux, C., &amp; Woodhull, G. (2026). <em><span>Quarto</span></em> (Versjon 1.10). <a href="https://doi.org/10.5281/zenodo.5960048">https://doi.org/10.5281/zenodo.5960048</a>
+</div>
+<div id="ref-opensciencecollaboration2015" class="csl-entry" role="listitem">
+Collaboration, O. S. (2015). Estimating the Reproducibility of Psychological Science. <em>Science</em>, <em>349</em>(6251).
+</div>
+<div id="ref-figueiredo2022" class="csl-entry" role="listitem">
+Figueiredo, L., Scherer, C., &amp; Cabral, J. S. (2022). A simple kit to use computational notebooks for more openness, reproducibility, and productivity in research. <em>PLOS Computational Biology</em>, <em>18</em>(9), e1010356. <a href="https://doi.org/10.1371/journal.pcbi.1010356">https://doi.org/10.1371/journal.pcbi.1010356</a>
+</div>
+<div id="ref-gentleman2007b" class="csl-entry" role="listitem">
+Gentleman, R., &amp; Temple Lang, D. (2007). Statistical <span>Analyses</span> and <span>Reproducible Research</span>. <em>Journal of Computational and Graphical Statistics</em>, <em>16</em>(1), 1–23.
 </div>
 <div id="ref-goodman2016b" class="csl-entry" role="listitem">
-Goodman, S. N., Fanelli, D., &amp; Ioannidis, J. P. A. (2016). What does research reproducibility mean? <em>Science Translational Medicine</em>, <em>8</em>(341), 341ps12–341ps12.
+Goodman, S. N., Fanelli, D., &amp; Ioannidis, J. P. A. (2016). What Does Research Reproducibility Mean? <em>Science Translational Medicine</em>, <em>8</em>(341), 341ps12–341ps12.
 </div>
 <div id="ref-ioannidis2005b" class="csl-entry" role="listitem">
 Ioannidis, J. P. A. (2005). Why <span>Most Published Research Findings Are False</span>. <em>PLOS Medicine</em>, <em>2</em>(8), e124.
+</div>
+<div id="ref-bollen2016" class="csl-entry" role="listitem">
+Kenneth Bollen, John T. Cacioppo, Robert M. Kaplan, Jon A. Krosnick, &amp; James L. Olds. (2016). <em>Social, <span>Behavioral</span>, and <span>Economic Sciences Perspectives</span> on <span>Robust</span> and <span>Reliable Science</span></em>.
+</div>
+<div id="ref-quarto" class="csl-entry" role="listitem">
+Klajdi Puka. (u.å.). <em>Introduksjon Til <span>Quarto</span></em>. Hentet 11. september 2026, fra <a href="https://kpuka.ca/resources/quarto_intro.html">https://kpuka.ca/resources/quarto_intro.html</a>
+</div>
+<div id="ref-knuth1984b" class="csl-entry" role="listitem">
+Knuth, D. E. (1984). Literate <span>Programming</span>. <em>The Computer Journal</em>, <em>27</em>(2), 97–111.
+</div>
+<div id="ref-leisch2002" class="csl-entry" role="listitem">
+Leisch, F. (2002). Sweave: <span>Dynamic Generation</span> of <span>Statistical Reports Using Literate Data Analysis</span>. I W. Härdle &amp; B. Rönz (Red.), <em>Compstat</em> (s. 575–580). Physica-Verlag HD. <a href="https://doi.org/10.1007/978-3-642-57489-4_89">https://doi.org/10.1007/978-3-642-57489-4_89</a>
+</div>
+<div id="ref-mccullough2008a" class="csl-entry" role="listitem">
+McCullough, B. D., McGeary, K. A., &amp; Harrison, T. D. (2008). Do Economics Journal Archives Promote Replicable Research? <em>Canadian Journal of Economics/Revue Canadienne d’économique</em>, <em>41</em>(4), 1406–1420.
+</div>
+<div id="ref-orozco2020" class="csl-entry" role="listitem">
+Orozco, V., Bontemps, C., Maigné, E., Piguet, V., Hofstetter, A., Lacroix, A., Levert, F., &amp; Rousselle, J.-M. (2020). How to <span>Make</span> a <span>Pie</span>: <span>Reproducible Research</span> for <span>Empirical Economics</span> and <span>Econometrics</span>. <em>Journal of Economic Surveys</em>, <em>34</em>(5), 1134–1169. <a href="https://doi.org/10.1111/joes.12389">https://doi.org/10.1111/joes.12389</a>
+</div>
+<div id="ref-r_core" class="csl-entry" role="listitem">
+R Core Team. (2026). <em>R: A Language and Environment for Statistical Computing</em>. R Foundation for Statistical Computing. <a href="https://doi.org/10.32614/R.manuals">https://doi.org/10.32614/R.manuals</a>
+</div>
+<div id="ref-simmons2011" class="csl-entry" role="listitem">
+Simmons, J. P., Nelson, L. D., &amp; Simonsohn, U. (2011). False-Positive Psychology: <span>Undisclosed</span> Flexibility in Data Collection and Analysis Allows Presenting Anything as Significant. <em>Psychological Science</em>, <em>22</em>(11), 1359–1366.
+</div>
+<div id="ref-vankampen2024" class="csl-entry" role="listitem">
+van Kampen, A. H. C., Mahamune, U., Jongejan, A., van Schaik, B. D. C., Balashova, D., Lashgari, D., Pras-Raves, M., Wever, E. J. M., Dane, A. D., García-Valiente, R., &amp; Moerland, P. D. (2024). <span>ENCORE</span>: A Practical Implementation to Improve Reproducibility and Transparency of Computational Research. <em>Nature Communications</em>, <em>15</em>(1), 8117. <a href="https://doi.org/10.1038/s41467-024-52446-8">https://doi.org/10.1038/s41467-024-52446-8</a>
+</div>
+<div id="ref-vilhuber2020" class="csl-entry" role="listitem">
+Vilhuber, L. (2020). Reproducibility and Replicability in Economics. <em>Harvard Data Science Review</em>, <em>2</em>(4). <a href="https://doi.org/10.1162/99608f92.4f6b9e67">https://doi.org/10.1162/99608f92.4f6b9e67</a>
+</div>
+<div id="ref-xie2018" class="csl-entry" role="listitem">
+Xie, Y., Allaire, J. J., &amp; Grolemund, G. (2018). <em>R Markdown: <span>The</span> Definitive Guide</em>. <span>Chapman and Hall/CRC</span>.
 </div>
 </div>
 </section>
 <section id="appendiks-a" class="level2">
 <h2 class="anchored" data-anchor-id="appendiks-a">Appendiks A</h2>
-<ul>
-<li>Versjon nummer og referanse til R pakken brukt i dokumentet</li>
-<li>R versjon brukt, med referanse</li>
-</ul>
+<p>Analysene og dokumentene ble utarbeidet med R version 4.6.1 (2026-06-24) <span class="citation" data-cites="r_core">R Core Team (<a href="#ref-r_core" role="doc-biblioref">2026</a>)</span>.</p>
 </section>
 <section id="appendiks-b" class="level2">
 <h2 class="anchored" data-anchor-id="appendiks-b">Appendiks B</h2>
-<ul>
-<li>Hvordan er KI brukt</li>
-<li>Husk invitasjon til chat</li>
-</ul>
+<p>ChatGPT ble brukt som støtte ved tekniske problemer i R og RStudio. Det ble blant annet brukt til å forklare feilmeldinger, finne feil i kode og få hjelp til bruk av Quarto og Github.</p>
+<p>Link til Chatgpt:</p>
+<p><a href="https://chatgpt.com/g/g-p-6aa1423d7bd48191a375dd09db36b440-arbeidskrav-1-msb105/project" class="uri">https://chatgpt.com/g/g-p-6aa1423d7bd48191a375dd09db36b440-arbeidskrav-1-msb105/project</a></p>
 </section>
 
 </main>
@@ -186,12 +222,12 @@ Ioannidis, J. P. A. (2005). Why <span>Most Published Research Findings Are False
       // flash "checked"
       button.classList.add('code-copy-button-checked');
       var currentTitle = button.getAttribute("title");
-      button.setAttribute("title", "Copied!");
+      button.setAttribute("title", "Kopiert!");
       let tooltip;
       if (window.bootstrap) {
         button.setAttribute("data-bs-toggle", "tooltip");
         button.setAttribute("data-bs-placement", "left");
-        button.setAttribute("data-bs-title", "Copied!");
+        button.setAttribute("data-bs-title", "Kopiert!");
         tooltip = new bootstrap.Tooltip(button, 
           { trigger: "manual", 
             customClass: "code-copy-button-tooltip",
