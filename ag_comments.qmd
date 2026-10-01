@@ -1,0 +1,15 @@
+---
+title: "Kommentarer"
+format: html
+editor: source
+---
+
+- Ser ut til at `lang: nb`er besvergelsen i YAML som skifter til nork bokmål
+- Endret til `abstract: |` . Bar (|, alt 7 på mac tastatur) angir at en tekst blokk følger. Dette er nok den mest korrekte måten å skrive dette på.
+- Jeg la til `ag.bib`i `bibliography:` slik at jeg kan legge til egne siteringsforslag.
+- Jeg forslår å sette begreper, navn og titler i kursiv («italic»)
+- I appendiks A har jeg endret til å sitere R Core Team.
+- Foreslått et par mindre endringer i formuleringer.
+- Fint paper. Fine «commit messages»! Forsett slik ;-) Et moment du kanskje kunne hatt med i diskusjonen er at reproduserbarhet krever at dataene er åpent tilgjengelige. Dette er ofte ikke tilfelle f.eks pga. personvernhensyn. Godkjent.
+
+
